@@ -49,6 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <main class="container">
         <section class="formulario">
+            <p>Bienvenidos</p>
             <h2>Iniciar Sesión</h2>
             <?php if(isset($error)): ?>
                 <div class="error"><?php echo $error; ?></div>
